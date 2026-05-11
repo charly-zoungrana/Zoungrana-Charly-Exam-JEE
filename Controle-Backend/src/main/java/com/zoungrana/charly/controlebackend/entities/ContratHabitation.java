@@ -11,7 +11,7 @@ import lombok.EqualsAndHashCode;
 import lombok.NoArgsConstructor;
 
 @Entity
-@DiscriminatorValue("HABITATION")
+//@DiscriminatorValue("HABITATION")
 @Data
 @NoArgsConstructor
 @AllArgsConstructor
