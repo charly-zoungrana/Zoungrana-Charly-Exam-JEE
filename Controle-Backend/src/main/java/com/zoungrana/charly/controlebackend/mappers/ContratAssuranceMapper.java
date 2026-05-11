@@ -69,19 +69,19 @@ public class ContratAssuranceMapper {
         return dto;
     }
     
-    public ContratAuto fromContratAutoDTO(ContratAutoDTO dto) {
+    public static ContratAuto fromContratAutoDTO(ContratAutoDTO dto) {
         ContratAuto contrat = new ContratAuto();
         BeanUtils.copyProperties(dto, contrat);
         return contrat;
     }
     
-    public ContratHabitation fromContratHabitationDTO(ContratHabitationDTO dto) {
+    public static ContratHabitation fromContratHabitationDTO(ContratHabitationDTO dto) {
         ContratHabitation contrat = new ContratHabitation();
         BeanUtils.copyProperties(dto, contrat);
         return contrat;
     }
     
-    public ContratSante fromContratSanteDTO(ContratSanteDTO dto) {
+    public static ContratSante fromContratSanteDTO(ContratSanteDTO dto) {
         ContratSante contrat = new ContratSante();
         BeanUtils.copyProperties(dto, contrat);
         return contrat;

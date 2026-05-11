@@ -8,7 +8,7 @@ import org.springframework.stereotype.Service;
 @Service
 public class PaiementMapper {
     
-    public PaiementDTO fromPaiement(Paiement paiement) {
+    public static PaiementDTO fromPaiement(Paiement paiement) {
         PaiementDTO dto = new PaiementDTO();
         BeanUtils.copyProperties(paiement, dto);
         
@@ -22,7 +22,7 @@ public class PaiementMapper {
         return dto;
     }
     
-    public Paiement fromPaiementDTO(PaiementDTO dto) {
+    public static Paiement fromPaiementDTO(PaiementDTO dto) {
         Paiement paiement = new Paiement();
         BeanUtils.copyProperties(dto, paiement);
         return paiement;

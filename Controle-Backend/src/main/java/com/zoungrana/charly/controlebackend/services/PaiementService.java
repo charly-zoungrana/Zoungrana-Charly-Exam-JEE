@@ -1,6 +1,6 @@
 package com.zoungrana.charly.controlebackend.services;
 
-import com.zoungrana.charly.controlebackend.dtos.PaiementDTO;
+import com.zoungrana.charly.controlebackend.dto.PaiementDTO;
 import com.zoungrana.charly.controlebackend.enums.TypePaiement;
 
 import java.time.LocalDateTime;

@@ -1,9 +1,10 @@
 package com.zoungrana.charly.controlebackend.services;
 
-import com.zoungrana.charly.controlebackend.dtos.ContratAssuranceDTO;
-import com.zoungrana.charly.controlebackend.dtos.ContratAutoDTO;
-import com.zoungrana.charly.controlebackend.dtos.ContratHabitationDTO;
-import com.zoungrana.charly.controlebackend.dtos.ContratSanteDTO;
+import com.zoungrana.charly.controlebackend.dto.ContratAutoDTO;
+import com.zoungrana.charly.controlebackend.dto.ContratAssuranceDTO;
+import com.zoungrana.charly.controlebackend.dto.ContratAutoDTO;
+import com.zoungrana.charly.controlebackend.dto.ContratHabitationDTO;
+import com.zoungrana.charly.controlebackend.dto.ContratSanteDTO;
 import com.zoungrana.charly.controlebackend.enums.StatutContrat;
 
 import java.time.LocalDate;
